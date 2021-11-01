@@ -1,0 +1,183 @@
+:root {
+    --skin: #f6c09c;
+    --background: #ed4042;
+    --red: #ed2860;
+    --dark-red: #680524;
+    --black: #020303;
+    --white: #fff;
+    --LightCoral:#E9967A ;
+    
+}
+body {
+    margin: 0%;
+
+}
+
+.container {
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+
+.head {
+    
+    width: 100px;
+    height: 250px;
+    background: var(--skin);
+    border-radius: 50px;
+    position: relative;
+    
+
+}
+
+.eye-left {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    background: var(--white);
+    top: 80px;
+    border-radius: 50%;
+    left: 65px;
+
+}
+.eye-right {
+    width: 20px;
+    height: 20px;
+    background: var(--white);
+    position: relative;
+    top: 61px;
+    border-radius: 50%;
+    right: -18px;
+
+
+}
+.ojos-left{
+    width: 5px;
+    height: 5px;
+    background: var(--black);
+    position: absolute;
+    border-radius: 50%;
+    top: 89px; ;
+    left: 27px;
+    
+
+}
+
+.ojo-right{
+    width: 5px;
+    height: 5px;
+    background: var(--black);
+    position: absolute;
+    border-radius: 50%;
+    top: 89px; 
+    right: 20px;
+
+}
+.pelo{
+    width: 100px;
+    height: 70px;
+    background: var(--black);
+    position: relative;
+    bottom: 66px;
+    border-radius: 40px 20px;
+
+}
+.nariz {
+    width: 26px;
+    height: 26px;
+    background: var(--LightCoral);
+    position: absolute;
+    left: 40px;
+    top: 100px;
+    border-radius: 2px 2px 14px 14px;
+   
+
+}
+.barba{
+    width: 100px;
+    height: 140px ;
+    background: var(--black);
+    position: absolute;
+    border-radius:  20px 20px 45px 46px;
+
+ 
+
+
+}
+.boca{
+    width: 55px;
+    height: 35px;
+   background: var(--dark-red);
+   position: absolute;
+   bottom: 78px;
+   left: 22px;
+    border-radius: 0 0 40px 40px;
+
+}
+
+.dientes {
+    width: 40px;
+    height: 10px;
+    background: var(--white);
+    position: absolute;
+    bottom: 103px;
+    left: 22px;
+    border-radius: 0 0 10px 3px ;
+
+
+}
+.lengua {
+    width: 17px;
+    height: 8px;
+    background: var(--red);
+    position: absolute;
+    bottom: 80px;
+   left: 35px;
+   border-radius: 60px 80px 60px 200px;
+
+}
+
+.orejas-right{
+    width: 13px;
+    height: 20px;
+    background: var(--LightCoral);
+    position: relative;
+    right: 13px;
+    bottom: 40px;
+    border-radius: 10px 0 0 10px  ;
+}
+.orejas-left{
+    width: 13px;
+    height: 20px;
+    background: var(--LightCoral);
+    position: relative;
+    left: 100px;
+    bottom: 60px;
+    border-radius: 0 10px 10px 0;
+}
+
+.cejas-right{
+    width: 18px;
+    height: 7px;
+    background: var(--black);
+    position: absolute;
+   top: 65px;
+   left: 16px;
+   border-radius: 5px 0 8px 0px;
+
+}
+.cejas-left{
+    width: 18px;
+    height: 7px;
+    background: var(--black);
+    position: absolute;
+    left: 70px;
+    top: 65px;
+    border-radius:0 5px 0 5px ;
+}
+
+
+
+

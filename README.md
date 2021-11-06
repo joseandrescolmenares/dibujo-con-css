@@ -1,4 +1,4 @@
 # dibujo-de-css
- es sencillo pero chevere!
- mi primera vez  dibujando con css
+ mi primer dibujo con css
+es sencillo per chevere!
 
